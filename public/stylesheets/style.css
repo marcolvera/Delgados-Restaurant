@@ -9,7 +9,7 @@ nav {
 
 #title-wrapper {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 h1 {
@@ -18,4 +18,8 @@ h1 {
 
 ul {
   list-style: none;
+}
+
+li {
+  display: inline;
 }
