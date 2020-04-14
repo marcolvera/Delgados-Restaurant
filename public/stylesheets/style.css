@@ -1,15 +1,22 @@
 body {
   margin: 0;
+  background-image: url(https://i.imgur.com/XUYs25d.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
-  background-color: red;
-  height: 5rem;
+  background-color: rgba(255, 255, 255, 0.774);
+  height: 7rem;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 #title-wrapper {
-  display: flex;
-  justify-content: space-between;
+  padding-left: 2rem;
 }
 
 h1 {
@@ -18,8 +25,11 @@ h1 {
 
 ul {
   list-style: none;
+  margin-top: 2.7rem;
 }
 
 li {
   display: inline;
+  padding: 1.5rem;
+  font-size: 1.5rem;
 }
