@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  background-image: url(https://i.imgur.com/XUYs25d.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 nav {
-  background-color: rgba(255, 255, 255, 0.774);
+  background-color: #370405;
   height: 7rem;
 }
 
@@ -16,21 +15,27 @@ nav {
 }
 
 #title-wrapper {
-  padding-left: 2rem;
+  padding-left: 12rem;
   text-align: center;
   display: flex;
 }
 
+#nav-wrapper {
+  padding-right: 11rem;
+}
+
 #name {
-  margin-top: 0;
-  font-family: "Exo", sans-serif;
+  margin-top: 1rem;
+  font-family: "Special Elite", cursive;
+  color: white;
   font-weight: 100;
   font-size: 3.3rem;
 }
 
 h3 {
-  font-family: "Comic Neue", cursive;
-  margin-top: -2.9rem;
+  font-family: "Special Elite", cursive;
+  color: rgb(212, 120, 0);
+  margin-top: -2.5rem;
   font-size: 1.5rem;
 }
 
@@ -43,5 +48,10 @@ li {
   display: inline;
   padding: 1.5rem;
   font-size: 1.5rem;
-  font-family: "Acme", sans-serif;
+  font-family: "Special Elite", cursive;
+  color: rgb(212, 120, 0);
+}
+
+hr {
+  color: white;
 }
