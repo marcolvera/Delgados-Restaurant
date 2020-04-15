@@ -91,21 +91,20 @@ p {
   height: 12rem;
 }
 
-#footText {
-  color: white;
-}
-
 #text1 {
   font-family: "Special Elite", cursive;
   font-size: 2.7rem;
+  color: #370405;
 }
 
 #text2 {
   font-family: "Special Elite", cursive;
   font-size: 2.7rem;
+  color: #da7d2a;
 }
 
 #text3 {
   font-family: "Special Elite", cursive;
   font-size: 2.7rem;
+  color: #af1812;
 }
