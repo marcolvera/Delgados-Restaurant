@@ -3,5 +3,5 @@ module.exports = {
 };
 
 function index(req, res) {
-  res.redner("menu");
+  res.render("menu");
 }
