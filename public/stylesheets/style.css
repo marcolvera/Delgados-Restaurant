@@ -87,7 +87,8 @@ p {
 
 #footerContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-top: -2rem;
 }
 
 .footBox {
