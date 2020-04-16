@@ -46,10 +46,14 @@ ul {
 
 li {
   display: inline;
-  padding: 1.5rem;
   font-size: 1.5rem;
   font-family: "Special Elite", cursive;
+}
+
+a {
   color: white;
+  text-decoration: none;
+  padding: 1.5rem;
 }
 
 #image-wrapper {
