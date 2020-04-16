@@ -93,6 +93,7 @@ p {
 .footBox {
   width: 18rem;
   height: 12rem;
+  background-color: white;
 }
 
 #text1 {
@@ -111,4 +112,11 @@ p {
   font-family: "Special Elite", cursive;
   font-size: 2.7rem;
   color: #af1812;
+}
+
+#background-wrapper {
+  background-image: url(https://i.imgur.com/VPWJo88.png);
+  background-size: 98rem 40rem;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
