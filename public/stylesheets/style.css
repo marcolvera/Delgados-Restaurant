@@ -59,6 +59,7 @@ a {
 #image-wrapper {
   display: flex;
   justify-content: space-between;
+  /* font-family: "Special Elite", cursive; */
 }
 
 img {
@@ -118,7 +119,13 @@ p {
 
 #background-wrapper {
   background-image: url(https://i.imgur.com/VPWJo88.png);
-  background-size: 98rem 40rem;
+  background-size: 83% 80%;
   background-repeat: no-repeat;
   background-position: top right;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    color: black;
+  }
 }
