@@ -123,26 +123,26 @@ p {
   background-position: top right;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   #name {
     font-size: 1.3rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   h3 {
     font-size: 0.6rem;
     margin-top: -0.9rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   #title-wrapper {
     padding-left: 0.5rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   #nav-wrapper {
     padding-right: 0.3rem;
   }
@@ -151,23 +151,22 @@ p {
 @media (max-width: 400px) {
   nav {
     height: 3rem;
-    background-color: white;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   a {
     padding: 0.2rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   li {
     font-size: 0.8rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   ul {
     margin-top: 1.5rem;
   }
