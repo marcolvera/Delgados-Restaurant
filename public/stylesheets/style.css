@@ -81,30 +81,29 @@ p {
 #footerContainer {
   display: flex;
   justify-content: center;
-  margin-top: -11rem;
+  margin-top: -10rem;
 }
 
 #hoursBackground {
   background-image: url(https://i.imgur.com/eAFnt86.png);
-  width: 26rem;
-  height: 15rem;
+  width: 17rem;
+  height: 12rem;
   font-family: "Special Elite", cursive;
   color: white;
   border-radius: 0.2rem;
   text-align: center;
-  margin-right: -3rem;
-  margin-top: -3rem;
+
+  margin-top: -1.8rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 #map {
-  width: 15rem;
+  width: 17rem;
   height: 6rem;
 }
 
 #hours {
-  margin-top: -0.3rem;
-  font-family: "Indie Flower", cursive;
+  font-size: 1.3rem;
 }
 
 #link {
@@ -114,7 +113,7 @@ p {
 .time {
   margin: 0;
   padding: 0.5rem 0 0 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -123,8 +122,8 @@ p {
 }
 
 .footBox {
-  width: 12rem;
-  height: 25rem;
+  width: 11rem;
+  height: 20rem;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0 0.2rem 0 0.2rem;
@@ -162,21 +161,26 @@ img {
 
 .img1 {
   width: 90%;
-  height: 8rem;
+  height: 7rem;
 }
 
 #img3 {
   margin-top: 1rem;
   width: 90%;
-  height: 8rem;
+  height: 7rem;
 }
 
 section {
   display: flex;
   justify-content: space-evenly;
+  margin: 0;
 }
 
 .addy {
   font-size: 1rem;
   text-align: center;
+}
+
+#time-wrapper {
+  margin-top: 0.8rem;
 }
