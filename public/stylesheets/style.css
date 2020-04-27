@@ -85,26 +85,24 @@ p {
 #footerContainer {
   display: flex;
   justify-content: center;
-  margin-top: -12rem;
+  margin-top: -14rem;
 }
 
 #hoursBackground {
   background-image: url(https://i.imgur.com/eAFnt86.png);
   width: 26rem;
   height: 15rem;
-  /* font-family: "Indie Flower", cursive; */
   font-family: "Special Elite", cursive;
   color: white;
   border-radius: 0.2rem;
   text-align: center;
-  margin-right: -2rem;
-  margin-top: -2rem;
+  margin-right: -3rem;
+  margin-top: -3rem;
 }
 
 #map {
   width: 23rem;
   height: 8rem;
-  margin-left: 3rem;
 }
 
 #hours {
@@ -129,12 +127,12 @@ p {
 }
 
 .footBox {
-  width: 12rem;
+  width: 14rem;
   height: 26rem;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0 0.2rem 0 0.2rem;
-  margin: 0 2rem 0 2rem;
+  margin: 0 1.4rem 0 1.4rem;
   border-radius: 0.2rem;
 }
 
@@ -163,10 +161,17 @@ img {
 
 .imgPad {
   margin-top: -2rem;
+  text-align: center;
 }
 
-#img1 {
-  width: 100%;
+.img1 {
+  width: 90%;
+  height: 8rem;
+}
+
+#img3 {
+  margin-top: 1rem;
+  width: 90%;
   height: 8rem;
 }
 
