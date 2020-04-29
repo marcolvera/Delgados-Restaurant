@@ -85,6 +85,20 @@ span {
 
 #timeLocation-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 4rem;
   margin-top: 3rem;
+  color: white;
+  background-color: black;
+}
+
+.time-txt {
+  text-align: left;
+  font-family: "Special Elite", cursive;
+  font-size: 1rem;
+}
+
+#hour-wrapper {
+  text-align: center;
+  font-family: "Special Elite", cursive;
 }
