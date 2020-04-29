@@ -29,12 +29,6 @@ a {
   color: rgb(214, 18, 18);
 }
 
-@media (max-width: 640px) {
-  #mainName {
-    font-size: 3rem;
-  }
-}
-
 #mainBot {
   font-family: "Special Elite", cursive;
   font-size: 1rem;
@@ -42,21 +36,9 @@ a {
   margin-top: -1rem;
 }
 
-@media (max-width) {
-  #mainBot {
-    font-size: 1.7rem;
-  }
-}
-
 #mainImg {
   width: 100%;
   height: 24rem;
-}
-
-@media (max-width: 640px) {
-  #mainImg {
-    height: 18rem;
-  }
 }
 
 #welcomeTxt {
@@ -67,12 +49,6 @@ a {
 #welcome-wrapper {
   margin-top: 3rem;
   font-size: 1.5rem;
-}
-
-@media (max-width: 640px) {
-  #welcome-wrapper {
-    font-size: 2.3rem;
-  }
 }
 
 #welcome-subTxt {
@@ -90,13 +66,6 @@ span {
   justify-content: space-evenly;
   margin-top: 4rem;
   text-align: center;
-}
-
-@media (max-width: 640px) {
-  #foods-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .food-box {
@@ -118,47 +87,40 @@ span {
   display: flex;
   justify-content: space-between;
   padding: 0 4rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
   color: white;
-  background-color: rgb(20, 20, 20);
-  font-family: "Special Elite", cursive;
+  background-color: #252525;
+  font-family: "Baloo Bhaina 2", cursive;
 }
 
 .time-txt {
   text-align: left;
   font-size: 1rem;
-  margin: 0.5rem 0;
+  margin-top: -1.5rem;
 }
 
-#hour-wrapper {
-  text-align: center;
+#hrs {
+  font-size: 1.2rem;
   color: rgb(214, 18, 18);
 }
 
-#locTop-txt {
-  text-align: center;
-  font-size: 1.3rem;
+#loc-wrapper {
+  margin-top: 4.1rem;
 }
 
 .loc-txt {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
+  margin-top: -1.5rem;
 }
 
 #mapLink {
   color: rgb(214, 18, 18);
 }
 
-#loc-wrapper {
-  margin-top: 4rem;
-}
-
-#num-wrapper {
-  margin-top: 4rem;
-}
-
 .num {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  margin-top: -1.5rem;
 }
 
 #numBot-txt {
@@ -169,22 +131,6 @@ span {
   text-align: center;
 }
 
-#foot {
-  font-family: "Baloo Bhaina 2", cursive;
-  font-size: 1rem;
-  text-align: right;
-  margin: 0 1rem;
-  bottom: 0;
-}
-
-@media (max-width: 640px) {
-  nav {
-    padding: 0 2rem;
-  }
-}
-
-@media (max-width: 640px) {
-  #mainImg {
-    height: 18rem;
-  }
+#num-wrapper {
+  margin-top: 4rem;
 }
