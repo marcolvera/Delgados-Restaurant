@@ -89,13 +89,14 @@ span {
   padding: 0 4rem;
   margin-top: 3rem;
   color: white;
-  background-color: black;
+  background-color: rgb(20, 20, 20);
   font-family: "Special Elite", cursive;
 }
 
 .time-txt {
   text-align: left;
   font-size: 1rem;
+  margin: 0.5rem 0;
 }
 
 #hour-wrapper {
@@ -118,5 +119,28 @@ span {
 }
 
 #loc-wrapper {
-  margin-top: 3rem;
+  margin-top: 4rem;
+}
+
+#num-wrapper {
+  margin-top: 4rem;
+}
+
+.num {
+  font-size: 1.3rem;
+}
+
+#numBot-txt {
+  text-align: center;
+}
+
+#numTop-txt {
+  text-align: center;
+}
+
+#foot {
+  font-family: "Baloo Bhaina 2", cursive;
+  font-size: 1rem;
+  text-align: right;
+  margin: 0 1rem;
 }
