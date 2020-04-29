@@ -29,6 +29,12 @@ a {
   color: rgb(214, 18, 18);
 }
 
+@media (max-width: 750px) {
+  #mainName {
+    font-size: 3rem;
+  }
+}
+
 #mainBot {
   font-family: "Special Elite", cursive;
   font-size: 1rem;
@@ -36,9 +42,21 @@ a {
   margin-top: -1rem;
 }
 
+@media (max-width) {
+  #mainBot {
+    font-size: 1.7rem;
+  }
+}
+
 #mainImg {
   width: 100%;
   height: 24rem;
+}
+
+@media (max-width: 750px) {
+  #mainImg {
+    height: 18rem;
+  }
 }
 
 #welcomeTxt {
@@ -49,6 +67,12 @@ a {
 #welcome-wrapper {
   margin-top: 3rem;
   font-size: 1.5rem;
+}
+
+@media (max-width: 750px) {
+  #welcome-wrapper {
+    font-size: 2.3rem;
+  }
 }
 
 #welcome-subTxt {
@@ -66,6 +90,13 @@ span {
   justify-content: space-evenly;
   margin-top: 4rem;
   text-align: center;
+}
+
+@media (max-width: 750px) {
+  #foods-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .food-box {
@@ -143,4 +174,17 @@ span {
   font-size: 1rem;
   text-align: right;
   margin: 0 1rem;
+  bottom: 0;
+}
+
+@media (max-width: 750px) {
+  nav {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  #mainImg {
+    height: 18rem;
+  }
 }
