@@ -90,15 +90,33 @@ span {
   margin-top: 3rem;
   color: white;
   background-color: black;
+  font-family: "Special Elite", cursive;
 }
 
 .time-txt {
   text-align: left;
-  font-family: "Special Elite", cursive;
   font-size: 1rem;
 }
 
 #hour-wrapper {
   text-align: center;
-  font-family: "Special Elite", cursive;
+  color: rgb(214, 18, 18);
+}
+
+#locTop-txt {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.loc-txt {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#mapLink {
+  color: rgb(214, 18, 18);
+}
+
+#loc-wrapper {
+  margin-top: 3rem;
 }
