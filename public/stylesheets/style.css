@@ -41,6 +41,14 @@ a {
   height: 24rem;
 }
 
+#menuImg {
+  height: 15rem;
+}
+
+#menuImg-wrapper {
+  text-align: center;
+}
+
 #welcomeTxt {
   font-family: "Special Elite", cursive;
   text-align: center;
