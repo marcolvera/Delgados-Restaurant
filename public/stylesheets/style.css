@@ -13,7 +13,11 @@ ul {
   margin-top: 2rem;
 }
 
-li {
+.homeNav {
+  display: inline;
+}
+
+.menuNav {
   display: inline;
 }
 
@@ -38,7 +42,7 @@ a {
 
 #mainImg {
   width: 100%;
-  height: 24rem;
+  height: 27rem;
 }
 
 #menuImg {
@@ -47,6 +51,7 @@ a {
 
 #menuImg-wrapper {
   text-align: center;
+  margin-top: -2rem;
 }
 
 #welcomeTxt {
@@ -77,8 +82,8 @@ span {
 }
 
 .food-box {
-  width: 19rem;
-  height: 16rem;
+  width: 20rem;
+  height: 17rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -141,4 +146,15 @@ span {
 
 #num-wrapper {
   margin-top: 4rem;
+}
+
+p {
+  font-family: "Baloo Bhaina 2", cursive;
+  line-height: 2rem;
+}
+
+#menuMain-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6rem;
 }
