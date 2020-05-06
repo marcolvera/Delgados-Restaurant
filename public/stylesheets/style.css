@@ -156,30 +156,44 @@ p {
 #menuMain-wrapper {
   display: flex;
   justify-content: space-around;
-  margin: 2rem 4rem 0 4rem;
+  margin: 2rem 8rem 0 8rem;
 }
 
 #mainMenuTxt {
   font-family: "Special Elite", cursive;
   font-size: 3rem;
+  padding: 4rem 0 0 4rem;
+}
+
+#sideMenuTop {
+  font-family: "Special Elite", cursive;
+  font-size: 2rem;
+  padding: 2rem 0 0 2rem;
 }
 
 #mainMenuBox {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  height: 20rem;
-  width: 45rem;
+  height: 37rem;
+  width: 48rem;
 }
 
-#mainMenuTxt {
-  padding: 4rem 0 0 4rem;
+#mainSideMenu {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 19rem;
+  height: 27rem;
 }
 
 #mainMenuImg {
-  width: 40%;
-  height: 10rem;
+  width: 60%;
+  height: 13rem;
 }
 
 #mainSubBox {
   display: flex;
-  padding: 01rem;
+  padding: 4rem 4rem 0 4rem;
+}
+
+#topLine {
+  border-top: 0.1rem solid brown;
+  width: 75%;
 }
