@@ -213,6 +213,11 @@ input[type="checkbox"] {
 }
 
 #menu:checked ~ .multi-level,
-.item input:checked ~ ul {
+.item input:checked {
+  display: block;
+}
+
+#menu2:checked ~ .multi-level,
+.item input:checked {
   display: block;
 }
