@@ -10,6 +10,10 @@ nav {
   background-color: #252525;
 }
 
+a:hover {
+  color: white;
+}
+
 ul {
   margin-top: 2rem;
 }
@@ -204,6 +208,11 @@ p {
 
 li {
   list-style: none;
+}
+
+#menu-container {
+  display: flex;
+  justify-content: center;
 }
 
 .multi-level,
