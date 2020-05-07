@@ -150,7 +150,6 @@ span {
 
 p {
   font-family: "Baloo Bhaina 2", cursive;
-  line-height: 2rem;
 }
 
 #menuMain-wrapper {
@@ -235,4 +234,28 @@ input[type="checkbox"] {
   width: 36rem;
   height: 3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Special Elite", cursive;
+}
+
+.item-wrapper {
+  width: 36rem;
+  border-top: 1px solid black;
+  line-height: 0.5rem;
+}
+
+.header-txt {
+  margin-left: 1rem;
+}
+
+.menu-wrapper {
+  line-height: 3rem;
+}
+
+.header:hover {
+  cursor: pointer;
+}
+
+.price {
+  text-align: right;
+  font-weight: bolder;
 }
