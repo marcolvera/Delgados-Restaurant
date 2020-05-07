@@ -31,10 +31,6 @@ a {
   color: rgb(214, 18, 18);
 }
 
-a:hover {
-  color: white;
-}
-
 #mainName {
   font-family: "Special Elite", cursive;
   color: rgb(214, 18, 18);
@@ -181,6 +177,9 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 19rem;
   height: 27rem;
+  /* background-image: url(https://i.imgur.com/DOJAgji.jpg);
+  background-size: cover; */
+  background-color: rgb(250, 249, 237);
 }
 
 #mainMenuImg {
@@ -194,6 +193,26 @@ p {
 }
 
 #topLine {
-  border-top: 0.1rem solid brown;
+  border-top: 0.1rem solid grey;
   width: 75%;
+}
+
+.fillLine {
+  width: 86%;
+  border-top: 0.01rem solid red;
+}
+
+li {
+  list-style: none;
+}
+
+.multi-level,
+.item ul,
+input[type="checkbox"] {
+  display: none;
+}
+
+#menu:checked ~ .multi-level,
+.item input:checked ~ ul {
+  display: block;
 }
