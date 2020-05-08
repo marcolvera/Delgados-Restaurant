@@ -309,3 +309,19 @@ input[type="checkbox"] {
   text-align: right;
   font-weight: bolder;
 }
+
+#menuImages-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.menuImages {
+  width: 22%;
+  height: 15rem;
+  border: 1px solid rgb(207, 163, 41);
+}
+
+#menuRight-top {
+  padding-left: 4rem;
+  font-family: "Special Elite", cursive;
+}
