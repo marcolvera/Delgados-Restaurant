@@ -211,7 +211,8 @@ li {
 
 #menu-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin: 0 12rem;
 }
 
 .multi-level,
@@ -322,6 +323,24 @@ input[type="checkbox"] {
 }
 
 #menuRight-top {
-  padding-left: 4rem;
   font-family: "Special Elite", cursive;
 }
+
+#menuRight-subText {
+  width: 20rem;
+}
+
+.menu-boxes {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#menuHours-top {
+  text-align: center;
+  background-color: #252525;
+  color: white;
+}
+
+/* #top-wrapper {
+  text-align: center;
+} */
