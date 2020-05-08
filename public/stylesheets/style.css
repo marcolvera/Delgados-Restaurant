@@ -104,6 +104,7 @@ span {
   color: white;
   background-color: #252525;
   font-family: "Baloo Bhaina 2", cursive;
+  bottom: 0;
 }
 
 .time-txt {
