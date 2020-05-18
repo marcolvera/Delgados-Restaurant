@@ -377,6 +377,16 @@ input[type="checkbox"] {
   }
 
   #mainImg {
-    height: 15rem;
+    height: 13rem;
+  }
+
+  #welcome-wrapper {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  #welcome-subTxt {
+    font-size: 0.9rem;
+    margin: 0 1rem;
   }
 }
