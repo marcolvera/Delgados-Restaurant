@@ -351,7 +351,7 @@ input[type="checkbox"] {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   nav {
     background-color: red;
   }
