@@ -350,3 +350,13 @@ input[type="checkbox"] {
 #hours-wrapper {
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  nav {
+    background-color: red;
+  }
+
+  a {
+    color: blue;
+  }
+}
