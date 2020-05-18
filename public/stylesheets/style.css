@@ -396,13 +396,13 @@ input[type="checkbox"] {
   }
 
   .food-box {
-    width: 20rem;
+    width: 100%;
     height: 20rem;
     box-shadow: none;
   }
 
   .food-container {
-    padding: 1rem;
+    padding: 0;
   }
 
   .food-img {
