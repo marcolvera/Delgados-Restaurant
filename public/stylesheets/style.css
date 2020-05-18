@@ -353,10 +353,30 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 640px) {
   nav {
-    background-color: red;
+    padding: 0 1rem;
+  }
+
+  #mainName {
+    font-size: 1.2rem;
+  }
+
+  #mainBot {
+    font-size: 0.9rem;
+  }
+
+  .homeNav {
+    font-size: 0.9rem;
   }
 
   a {
-    color: blue;
+    padding: 0.5rem;
+  }
+
+  ul {
+    margin-top: 1rem;
+  }
+
+  #mainImg {
+    height: 15rem;
   }
 }
