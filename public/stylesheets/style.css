@@ -7,7 +7,44 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 2rem 4rem 1rem 4rem;
-  /* background-color: #252525; */
+}
+
+#main-fill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Special Elite", cursive;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.308)),
+    url(https://i.imgur.com/oyEvspB.jpg);
+  padding: 1rem 0;
+  background-size: cover;
+  color: rgb(238, 228, 215);
+  text-shadow: 2px 2px black;
+}
+
+#btn {
+  background-color: rgb(214, 18, 18);
+  width: 12rem;
+  height: 3.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+#fill-menu {
+  text-shadow: none;
+  font-size: 1.5rem;
+}
+
+.fill-small {
+  font-size: 3rem;
+}
+
+#fill-large {
+  font-size: 4rem;
 }
 
 a:hover {
