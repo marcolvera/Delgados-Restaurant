@@ -175,12 +175,16 @@ a {
   background-color: #252525;
   font-family: "Baloo Bhaina 2", cursive;
   bottom: 0;
+  line-height: 0.7rem;
+}
+
+span {
+  color: rgb(214, 18, 18);
 }
 
 .time-txt {
   text-align: left;
   font-size: 1rem;
-  margin-top: -1.5rem;
 }
 
 #hrs {
@@ -188,14 +192,9 @@ a {
   color: rgb(214, 18, 18);
 }
 
-#loc-wrapper {
-  margin-top: 4.1rem;
-}
-
 .loc-txt {
   font-size: 1rem;
   text-align: center;
-  margin-top: -1.5rem;
 }
 
 #mapLink {
@@ -204,7 +203,6 @@ a {
 
 .num {
   font-size: 1rem;
-  margin-top: -1.5rem;
 }
 
 #numBot-txt {
@@ -213,10 +211,6 @@ a {
 
 #numTop-txt {
   text-align: center;
-}
-
-#num-wrapper {
-  margin-top: 4rem;
 }
 
 p {
