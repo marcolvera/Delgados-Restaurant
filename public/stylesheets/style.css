@@ -151,6 +151,21 @@ a {
   box-shadow: 1px 1px 3px rgb(94, 92, 92);
 }
 
+.food-subtxt {
+  text-align: left;
+  color: #252525;
+  line-height: 1rem;
+}
+
+.topSub {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+}
+
+.botSub {
+  font-size: 1rem;
+}
+
 #timeLocation-wrapper {
   display: flex;
   justify-content: space-between;
