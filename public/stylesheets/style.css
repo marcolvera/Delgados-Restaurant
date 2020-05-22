@@ -7,6 +7,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 2rem 4rem 1rem 4rem;
+  box-shadow: 1px -1px 6px black;
 }
 
 #main-fill {
@@ -78,7 +79,7 @@ ul {
 
 .menuNav {
   display: inline;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 a {
@@ -382,6 +383,7 @@ input[type="checkbox"] {
 #menuImages-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .menuImages {
