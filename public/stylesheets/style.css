@@ -13,38 +13,54 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Special Elite", cursive;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.308)),
+  font-family: "Bebas Neue", cursive;
+  background-image: linear-gradient(
+      rgba(41, 40, 40, 0.349),
+      rgba(41, 38, 38, 0.384)
+    ),
     url(https://i.imgur.com/oyEvspB.jpg);
-  padding: 1rem 0;
+  padding: 3rem 0;
   background-size: cover;
   color: rgb(238, 228, 215);
   text-shadow: 2px 2px black;
 }
 
+#fill-text {
+  line-height: 2rem;
+  text-align: center;
+}
+
 #btn {
-  background-color: rgb(214, 18, 18);
+  background-color: rgb(233, 54, 54);
   width: 12rem;
   height: 3.5rem;
   text-align: center;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 
 #btn:hover {
   cursor: pointer;
 }
 
+#fill-link {
+  padding: 0;
+  color: rgb(238, 228, 215);
+}
+
 #fill-menu {
   text-shadow: none;
   font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .fill-small {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 #fill-large {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 a:hover {
@@ -57,7 +73,7 @@ ul {
 
 .homeNav {
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .menuNav {
@@ -67,8 +83,9 @@ ul {
 
 a {
   text-decoration: none;
-  padding: 1rem;
-  font-family: "Special Elite", cursive;
+  padding: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
   color: #252525;
 }
 
