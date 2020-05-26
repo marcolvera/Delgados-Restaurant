@@ -90,12 +90,6 @@ a {
   color: #252525;
 }
 
-#mainName {
-  font-family: "Special Elite", cursive;
-  color: rgb(214, 18, 18);
-  font-size: 2.5rem;
-}
-
 #logo {
   width: 33%;
   height: 7rem;
@@ -427,31 +421,32 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 640px) {
   nav {
-    padding: 0 1rem;
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
   }
 
-  #mainName {
-    font-size: 1.2rem;
+  #mainTxt-wrapper {
+    text-align: center;
+    margin: 0.1rem 1rem 0 0;
   }
 
-  #mainBot {
-    font-size: 0.9rem;
+  .nav-tab {
+    display: none;
   }
 
-  .homeNav {
-    font-size: 0.9rem;
+  #logo {
+    width: 70%;
+    height: 5rem;
   }
 
-  a {
-    padding: 0.5rem;
+  .fill-small {
+    font-size: 2rem;
   }
 
-  ul {
-    margin-top: 1rem;
-  }
-
-  #mainImg {
-    height: 13rem;
+  #fill-large {
+    font-size: 2.4rem;
   }
 
   #welcome-wrapper {
