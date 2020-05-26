@@ -8,6 +8,11 @@ nav {
   justify-content: space-between;
   padding: 2rem 4rem 1rem 4rem;
   box-shadow: 1px -1px 6px black;
+  background-color: white;
+}
+
+.menu-background {
+  background-color: rgb(233, 228, 222);
 }
 
 #main-fill {
@@ -350,6 +355,7 @@ input[type="checkbox"] {
   height: 3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-family: "Bebas Neue", cursive;
+  background-color: white;
 }
 
 .item-wrapper {
@@ -400,6 +406,7 @@ input[type="checkbox"] {
 .menu-boxes {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 #menuHours-top {
