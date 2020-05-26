@@ -434,27 +434,31 @@ input[type="checkbox"] {
     height: 5rem;
   }
 
+  #main-fill {
+    padding: 4rem 1rem;
+  }
+
   .fill-small {
     font-size: 2rem;
   }
 
   #fill-large {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   #fill-text {
-    line-height: 1.3rem;
+    line-height: 1rem;
   }
 
   #btn {
     background-color: rgb(233, 54, 54);
-    width: 5rem;
-    height: 2rem;
-    margin-top: 3.5rem;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
   }
 
   #fill-menu {
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin-top: 0.3rem;
     font-family: "Bebas Neue", cursive;
   }
@@ -492,27 +496,14 @@ input[type="checkbox"] {
   }
 
   #timeLocation-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0 auto;
-    line-height: 0.5rem;
+    line-height: 1rem;
   }
 
-  #hrs-wrapper {
+  #loc-wrapper {
     display: none;
   }
 
-  .loc-txt {
-    font-size: 0.7rem;
-    text-align: center;
-  }
-
-  .num {
-    font-size: 0.7rem;
-  }
-
   #num-wrapper {
-    margin-right: 3rem;
+    display: none;
   }
 }
