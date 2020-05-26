@@ -497,6 +497,7 @@ input[type="checkbox"] {
 
   #timeLocation-wrapper {
     line-height: 1rem;
+    margin-top: -2rem;
   }
 
   #loc-wrapper {
