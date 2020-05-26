@@ -123,13 +123,6 @@ a {
   font-size: 1.5rem;
 }
 
-#welcome-subTxt {
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 0 8rem;
-  font-family: "Special Elite", cursive;
-}
-
 #foods-wrapper {
   display: flex;
   justify-content: space-around;
@@ -449,41 +442,77 @@ input[type="checkbox"] {
     font-size: 2.4rem;
   }
 
-  #welcome-wrapper {
-    margin-top: 1rem;
-    font-size: 1.2rem;
+  #fill-text {
+    line-height: 1.3rem;
   }
 
-  #welcome-subTxt {
-    font-size: 0.9rem;
-    margin: 0 1rem;
-    line-height: 1.5rem;
+  #btn {
+    background-color: rgb(233, 54, 54);
+    width: 5rem;
+    height: 2rem;
+    margin-top: 3.5rem;
+  }
+
+  #fill-menu {
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  #welcome-wrapper {
+    margin-top: 2.7rem;
+  }
+
+  #welcomeTxt {
+    font-size: 2rem;
   }
 
   #foods-wrapper {
     flex-direction: column;
-    margin-top: 2.5rem;
+    margin: 2.3rem 0rem;
     align-items: center;
   }
 
   .food-box {
     width: 100%;
     height: 20rem;
-    box-shadow: none;
-  }
-
-  .food-container {
-    padding: 0;
   }
 
   .food-img {
-    width: 100%;
     height: 12rem;
   }
 
   .food-subtxt {
     text-align: center;
-    font-size: 1rem;
-    line-height: 1rem;
+    line-height: 0.5rem;
+  }
+
+  .topSub {
+    font-size: 2rem;
+  }
+
+  #timeLocation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 0.5rem;
+  }
+
+  #hrs-wrapper {
+    display: none;
+  }
+
+  .loc-txt {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .num {
+    font-size: 0.7rem;
+  }
+
+  #num-wrapper {
+    margin-right: 3rem;
   }
 }
