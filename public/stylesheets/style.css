@@ -514,4 +514,37 @@ input[type="checkbox"] {
   #num-wrapper {
     display: none;
   }
+
+  #menu-top {
+    font-size: 1rem;
+  }
+
+  #menuImages-wrapper {
+    display: none;
+  }
+
+  #menu-right {
+    display: none;
+  }
+
+  #menu-container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .item-wrapper {
+    width: 100%;
+  }
+
+  .menuBot-wrapper {
+    margin-top: 3rem;
+  }
+
+  .price {
+    margin-right: 0.6rem;
+  }
 }
