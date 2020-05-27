@@ -434,9 +434,14 @@ input[type="checkbox"] {
 @media only screen and (max-width: 640px) {
   nav {
     padding: 0 2rem;
+    /* position: sticky;
+    top: 0; */
+    background-color: white;
+  }
+
+  .phone-case {
     position: sticky;
     top: 0;
-    background-color: white;
   }
 
   #mainTxt-wrapper {
@@ -558,5 +563,21 @@ input[type="checkbox"] {
 
   .price {
     margin-right: 0.6rem;
+  }
+
+  #mapIcon {
+    height: 1.2rem;
+  }
+
+  #mapNav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 238, 238);
+    color: rgb(106, 149, 65);
+    height: 1.8rem;
+    font-size: 0.8rem;
+    font-family: "Baloo Bhaina 2", cursive;
+    align-items: center;
+    box-shadow: 0 1px 3px grey;
   }
 }
