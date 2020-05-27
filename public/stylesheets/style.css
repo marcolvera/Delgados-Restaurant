@@ -6,13 +6,9 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 4rem 1rem 4rem;
+  padding: 1rem 4rem 1rem 4rem;
   box-shadow: 1px -1px 6px black;
   background-color: white;
-}
-
-.menu-background {
-  background-color: rgb(233, 228, 222);
 }
 
 #main-fill {
@@ -25,7 +21,7 @@ nav {
       rgba(41, 38, 38, 0.384)
     ),
     url(https://i.imgur.com/9T5WYlx.jpg);
-  padding: 3rem 0;
+  padding: 4rem 0;
   background-size: cover;
   color: rgb(238, 228, 215);
   text-shadow: 2px 2px black;
@@ -92,12 +88,12 @@ a {
   padding: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: #252525;
+  color: black;
 }
 
 #logo {
-  width: 33%;
-  height: 7rem;
+  width: 28%;
+  height: 6rem;
 }
 
 #mainBot {
@@ -120,12 +116,11 @@ a {
   font-family: "Bebas Neue", cursive;
   text-align: center;
   color: rgb(214, 18, 18);
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 #welcome-wrapper {
-  margin-top: 3rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #foods-wrapper {
