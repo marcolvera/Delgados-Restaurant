@@ -72,10 +72,11 @@ nav {
   font-size: 2.5rem;
   margin-top: 0.7rem;
   font-family: "Bebas Neue", cursive;
+  text-shadow: none;
 }
 
 .fill-small {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 #fill-large {
@@ -132,7 +133,7 @@ a {
 #welcomeTxt {
   font-family: "Bebas Neue", cursive;
   text-align: center;
-  color: rgb(214, 18, 18);
+  color: rgb(233, 54, 54);
   font-size: 2.7rem;
 }
 
@@ -223,6 +224,36 @@ p {
   font-family: "Baloo Bhaina 2", cursive;
 }
 
+#menu-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(243, 233, 220);
+  font-family: "Baloo Bhaina 2", cursive;
+  background-image: linear-gradient(
+    rgba(75, 75, 75, 0.336),
+    rgba(82, 82, 82, 0.26)
+  ),
+  url(https://i.imgur.com/wJLuaqa.jpg);
+  background-size: cover;
+  padding: 5rem 0;
+}
+
+#menu-mainTxt {
+  text-align: center;
+  
+}
+
+#menu-fillLarge {
+  font-size: 5rem;
+  text-shadow: 2px 2px black;
+}
+
+#menu-fillSmall {
+  font-size: 1.7rem;
+  text-shadow: 2px 2px black;
+}
+
 #menu-top {
   text-align: center;
   font-family: "Bebas Neue", cursive;
@@ -288,7 +319,7 @@ li {
 #menu-container {
   display: flex;
   justify-content: space-around;
-  margin: 0 12rem;
+  margin: 0 6rem;
 }
 
 .multi-level,
@@ -452,41 +483,41 @@ input[type="checkbox"] {
   }
 
   #logo {
-    width: 70%;
-    height: 5rem;
+    width: 45%;
+    height: 3rem;
   }
 
   #main-fill {
-    padding: 4rem 1rem;
+    padding: 4rem 0;
   }
 
   .fill-small {
-    font-size: 2rem;
-  }
-
-  #fill-large {
     font-size: 2.2rem;
   }
 
+  #fill-large {
+    font-size: 2.4rem;
+  }
+
   #fill-text {
-    line-height: 1rem;
+    line-height: 1.5rem;
   }
 
   #btn {
     background-color: rgb(233, 54, 54);
-    width: 10rem;
-    height: 3rem;
+    width: 11rem;
+    height: 3.3rem;
     margin-top: 2rem;
   }
 
   #fill-menu {
-    font-size: 2rem;
-    margin-top: 0.3rem;
+    font-size: 2.3rem;
+    margin-top: 0.4rem;
     font-family: "Bebas Neue", cursive;
   }
 
   #welcome-wrapper {
-    margin-top: 2.7rem;
+    margin-top: 1rem;
   }
 
   #welcomeTxt {
@@ -580,7 +611,7 @@ input[type="checkbox"] {
   }
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   nav {
     padding: 0 1rem;
     background-color: white;
@@ -736,4 +767,4 @@ input[type="checkbox"] {
     align-items: center;
     box-shadow: 0 1px 3px grey;
   } */
-}
+} */
