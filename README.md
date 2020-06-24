@@ -1,13 +1,24 @@
-## Landing Page
+![](https://i.imgur.com/9bx2r7j.jpg)
 
-A lot of focus was put on creating a warm and inviting landing page. The theme of the site had to also represent the physical appearance and attitude of the restaurant. Decided on following popular minimal approach with an image and text on top. The choice to add a dark gradient to the image was made to ensure the text is clearly visible and vibrant.
+## Delgado's Restaraunt
 
-<img src="https://i.imgur.com/9bx2r7j.jpg">
+---
 
-## Brief
+## Description
 
-The two goals of the landing page was to capture the users attention and intice them to see the menu page. The first section with the image and text is the capture. The following section with several food images is to persuade. The choice to use bright food images was to make them pop and popular items were described briefly to encourage the user to get more information from the menu page.
+This project is freelance work for a local restaraunt located in San Jacinto, CA. I decided to follow the popular landing them of a vibrant picture with text on top. It's a very minimal approach and it works well here. A lot of thought was put into the color scheme as I wanted to make sure the website reflected the attitude and atmoshpere of the pyshical restaraunt. Utilized media queries to make it responsive and collapse sections for a mobile friendly experience. Currently only repsonsive on 640px width.
 
-<img src="https://i.imgur.com/J1obKcR.jpg">
+---
 
-<img src="https://i.imgur.com/8P9witX.png">
+![](https://i.imgur.com/J1obKcR.jpg)
+
+## Technologies Used
+
+- Express
+- Node
+
+---
+
+## Link
+
+http://delgados-restaurant.herokuapp.com/
