@@ -461,7 +461,8 @@ input[type="checkbox"] {
   text-align: center;
 }
 
-@media only screen and (max-width: 640px) {
+/* Smartphones */
+@media only screen and (max-width: 500px) {
   nav {
     padding: 0 2rem;
     background-color: white;
@@ -626,5 +627,25 @@ input[type="checkbox"] {
     font-size: 0.7rem;
     text-shadow: 1px 1px black;
     display: none;
+  }
+}
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 768px) {
+  nav {
+    padding: 1rem 2rem;
+  }
+
+  ul {
+    margin-top: 2rem;
+    padding: 0;
+  }
+
+  a {
+    padding: 0 0.7rem;
+  }
+
+  .nav-tab {
+    width: 40%;
   }
 }
