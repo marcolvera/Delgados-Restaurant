@@ -648,4 +648,20 @@ input[type="checkbox"] {
   .nav-tab {
     width: 40%;
   }
+
+  #main-fill {
+    padding: 7rem;
+  }
+
+  #fill-text {
+    line-height: 1rem;
+  }
+
+  .fill-small {
+    font-size: 3rem;
+  }
+
+  #fill-large {
+    font-size: 4.3rem;
+  }
 }
