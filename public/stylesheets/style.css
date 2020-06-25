@@ -63,6 +63,14 @@ nav {
   cursor: pointer;
 }
 
+#tablet-box1 {
+  display: none;
+}
+
+#tablet-box2 {
+  display: none;
+}
+
 #fill-link {
   padding: 0;
   color: rgb(238, 228, 215);
@@ -702,5 +710,50 @@ input[type="checkbox"] {
 
   .item-wrapper {
     width: 20rem;
+  }
+
+  #tablet-box1 {
+    display: block;
+  }
+
+  #tablet-box2 {
+    display: block;
+  }
+
+  #normal {
+    display: none;
+  }
+}
+
+/* Normal */
+@media (min-width: 769px) and (max-width: 1200px) {
+  #foods-wrapper {
+    margin: 4rem 1rem 0 1rem;
+  }
+
+  .food-box {
+    width: 14rem;
+    margin-top: 3rem;
+  }
+
+  .food-img {
+    height: 14rem;
+  }
+
+  .food-subtxt {
+    line-height: 0.7rem;
+  }
+
+  #menu-fillLarge {
+    font-size: 2.7rem;
+  }
+
+  #menu-fillSmall {
+    font-size: 1.7rem;
+    margin: 0 4rem;
+  }
+
+  #menu-container {
+    margin: 0 1rem;
   }
 }
