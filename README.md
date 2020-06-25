@@ -21,4 +21,12 @@ This project is freelance work for a local restaraunt located in San Jacinto, CA
 
 ## Link
 
-http://delgados-restaurant.herokuapp.com/
+## http://delgados-restaurant.herokuapp.com/
+
+---
+
+## Next Steps
+
+- Add client owned food images
+- On the menu page, add another link that takes the user to an image and further description of the item the user clicked on
+- More responsiveness
