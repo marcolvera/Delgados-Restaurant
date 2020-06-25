@@ -96,11 +96,6 @@ ul {
   font-size: 1.3rem;
 }
 
-.menuNav {
-  display: inline;
-  font-size: 1.3rem;
-}
-
 a {
   text-decoration: none;
   padding: 1.3rem;
@@ -646,11 +641,12 @@ input[type="checkbox"] {
   }
 
   .nav-tab {
-    width: 40%;
+    width: 10%;
+    padding-right: 2rem;
   }
 
   #main-fill {
-    padding: 7rem;
+    padding: 10rem 7rem;
   }
 
   #fill-text {
@@ -671,10 +667,7 @@ input[type="checkbox"] {
   }
 
   #foods-wrapper {
-    display: flex;
-    justify-content: space-around;
     margin: 4rem 3rem 0 3rem;
-    text-align: center;
   }
 
   .food-box {
@@ -683,23 +676,31 @@ input[type="checkbox"] {
   }
 
   .food-img {
-    width: 100%;
     height: 14rem;
-    box-shadow: 1px 1px 3px rgb(94, 92, 92);
   }
 
   .food-subtxt {
-    text-align: left;
-    color: #252525;
-    line-height: 1rem;
+    line-height: 0.7rem;
   }
 
-  .topSub {
-    font-family: "Bebas Neue", cursive;
-    font-size: 1.5rem;
+  #menu-fillLarge {
+    font-size: 3rem;
   }
 
-  .botSub {
-    font-size: 1rem;
+  #menu-fillSmall {
+    font-size: 1.6rem;
+    margin: 0 2rem;
+  }
+
+  #menu-container {
+    margin: 0 1rem;
+  }
+
+  .header {
+    width: 20rem;
+  }
+
+  .item-wrapper {
+    width: 20rem;
   }
 }
